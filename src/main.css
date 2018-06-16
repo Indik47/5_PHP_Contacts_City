@@ -11,7 +11,7 @@
 }
 
 .contact-info {
-    background: url("./images/");
+    background: url("../images/main-bg.png");
 }
 
 .contact-info__title {
@@ -64,4 +64,22 @@
 
 .btn-blue:hover {
     box-shadow: 0 0 20px rgba(11, 141, 255, 0.6);
+}
+
+.about-section {
+    margin-top: 20rem;
+    text-align: center;
+}
+
+.advantages__item {
+
+}
+
+.bullet {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #13ce6e;
+
 }
