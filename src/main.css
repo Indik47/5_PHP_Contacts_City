@@ -1,11 +1,17 @@
 .form__input {
     width: 100%;
     margin: 1rem 0;
+    padding: 0.5rem;
 }
 
 .form__textarea {
     width: 100%;
+    padding: 0.5rem;
 
+}
+
+.contact-info {
+    background: url("./images/");
 }
 
 .contact-info__title {
@@ -44,3 +50,18 @@
     line-height: 26px;
 }
 
+.btn-blue {
+
+    border: 3px solid rgb(52, 152, 219);
+    background-color: rgb(52, 152, 219);
+    color: rgb(255, 255, 255);
+    padding: 0.3rem;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.btn-blue:hover {
+    box-shadow: 0 0 20px rgba(11, 141, 255, 0.6);
+}
