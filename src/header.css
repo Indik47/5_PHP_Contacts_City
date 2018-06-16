@@ -17,6 +17,10 @@
 }
 
 .nav-item {
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link {
     color: #000000;
     font-family: "Open Sans";
     font-size: 13px;
@@ -26,7 +30,6 @@
 
 .nav-item:active, .nav-item:hover {
     border-bottom: 3px solid red;
-    
 }
 
 .call-me {
