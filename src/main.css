@@ -1,0 +1,45 @@
+.form__input {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.form__textarea {
+    width: 100%;
+
+}
+
+.contact-info__title {
+    color: rgb(33, 33, 33);
+    font-family: "Arvo", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 57px;
+}
+
+.contact-info__subtitle {
+    color: rgb(194, 194, 194);
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 26.84px;
+    text-transform: uppercase;
+    /* Text style for "Email:" */
+    letter-spacing: 1px;
+}
+
+.contact-info__links {
+    color: rgb(52, 152, 219);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.contact-info__time {
+    color: rgb(108, 108, 108);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    /* Text style for "пн-пт 12:0" */
+    line-height: 26px;
+}
