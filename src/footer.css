@@ -1,0 +1,21 @@
+.footer_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_nav__item {
+    list-style: none;
+}
+
+.footer_nav__link {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    /* Text style for "Курсы" */
+    letter-spacing: 0.65px;
+}
+
