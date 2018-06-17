@@ -1,3 +1,44 @@
+
+@font-face {
+    font-family: "ArvoRegular";
+    src: url("../fonts/ArvoRegular/ArvoRegular.eot");
+    src: url("../fonts/ArvoRegular/ArvoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoRegular/ArvoRegular.woff") format("woff"),
+    url("../fonts/ArvoRegular/ArvoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArvoBold";
+    src: url("../fonts/ArvoBold/ArvoBold.eot");
+    src: url("../fonts/ArvoBold/ArvoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoBold/ArvoBold.woff") format("woff"),
+    url("../fonts/ArvoBold/ArvoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArvoItalic";
+    src: url("../fonts/ArvoItalic/ArvoItalic.eot");
+    src: url("../fonts/ArvoItalic/ArvoItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoItalic/ArvoItalic.woff") format("woff"),
+    url("../fonts/ArvoItalic/ArvoItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArvoBoldItalic";
+    src: url("../fonts/ArvoBoldItalic/ArvoBoldItalic.eot");
+    src: url("../fonts/ArvoBoldItalic/ArvoBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoBoldItalic/ArvoBoldItalic.woff") format("woff"),
+    url("../fonts/ArvoBoldItalic/ArvoBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 .header .container-fluid {
     padding: 0;
 }
@@ -5,6 +46,7 @@
 .header__title {
     background: #3498db;
     background-color: #eaf4fb;
+    padding: 0;
 }
 
 .header .navbar-toggler-icon {
@@ -59,8 +101,13 @@
 }
 
 .main-title__office {
- /*flex-grow: 1;*/
+    flex-grow: 1;
     text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "ArvoRegular";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 52px;
 }
 
 .main-title__kiev {
@@ -84,6 +131,11 @@
     background: #00d94d;
 
 }
+
+.map.col {
+    padding: 0;
+}
+
 
 
 
