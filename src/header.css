@@ -1,48 +1,3 @@
-
-@font-face {
-    font-family: "ArvoRegular";
-    src: url("../fonts/ArvoRegular/ArvoRegular.eot");
-    src: url("../fonts/ArvoRegular/ArvoRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ArvoRegular/ArvoRegular.woff") format("woff"),
-    url("../fonts/ArvoRegular/ArvoRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "ArvoBold";
-    src: url("../fonts/ArvoBold/ArvoBold.eot");
-    src: url("../fonts/ArvoBold/ArvoBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ArvoBold/ArvoBold.woff") format("woff"),
-    url("../fonts/ArvoBold/ArvoBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "ArvoItalic";
-    src: url("../fonts/ArvoItalic/ArvoItalic.eot");
-    src: url("../fonts/ArvoItalic/ArvoItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ArvoItalic/ArvoItalic.woff") format("woff"),
-    url("../fonts/ArvoItalic/ArvoItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "ArvoBoldItalic";
-    src: url("../fonts/ArvoBoldItalic/ArvoBoldItalic.eot");
-    src: url("../fonts/ArvoBoldItalic/ArvoBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ArvoBoldItalic/ArvoBoldItalic.woff") format("woff"),
-    url("../fonts/ArvoBoldItalic/ArvoBoldItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-.header .container-fluid {
-    padding: 0;
-}
-
 .header__title {
     background: #3498db;
     background-color: #eaf4fb;
@@ -67,11 +22,8 @@
 }
 
 .header .navbar-light .navbar-nav .nav-link {
+    font:700 13px/16px "Open Sans";
     color: #000000;
-    font-family: "Open Sans";
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 16px;
     border-bottom: 3px solid transparent;
 }
 
@@ -104,21 +56,15 @@
     flex-grow: 1;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-family: "ArvoRegular";
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 52px;
+    font: 400 36px/52px "ArvoRegular";
 }
 
 .main-title__kiev {
     position: relative;
+    font: 700 32px "Open Sans";
     color: #3498db;
-    font-family: "Open Sans";
-    font-size: 32px;
-    font-weight: 700;
     text-transform: uppercase;
 }
-
 
 .main-title__kiev::after {
     content: '';
@@ -129,12 +75,12 @@
     width: 10px;
     border-radius: 50%;
     background: #00d94d;
-
 }
 
 .map.col {
     padding: 0;
 }
+
 
 
 

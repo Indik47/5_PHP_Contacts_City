@@ -1,69 +1,87 @@
+@font-face {
+    font-family: "ArvoRegular";
+    src: url("../fonts/ArvoRegular/ArvoRegular.eot");
+    src: url("../fonts/ArvoRegular/ArvoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoRegular/ArvoRegular.woff") format("woff"),
+    url("../fonts/ArvoRegular/ArvoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
+@font-face {
+    font-family: "ArvoBold";
+    src: url("../fonts/ArvoBold/ArvoBold.eot");
+    src: url("../fonts/ArvoBold/ArvoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoBold/ArvoBold.woff") format("woff"),
+    url("../fonts/ArvoBold/ArvoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArvoItalic";
+    src: url("../fonts/ArvoItalic/ArvoItalic.eot");
+    src: url("../fonts/ArvoItalic/ArvoItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoItalic/ArvoItalic.woff") format("woff"),
+    url("../fonts/ArvoItalic/ArvoItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ArvoBoldItalic";
+    src: url("../fonts/ArvoBoldItalic/ArvoBoldItalic.eot");
+    src: url("../fonts/ArvoBoldItalic/ArvoBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArvoBoldItalic/ArvoBoldItalic.woff") format("woff"),
+    url("../fonts/ArvoBoldItalic/ArvoBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body header,
+body main,
+body footer {
+    font-family: "Open Sans";
+}
+
+.form {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid rgb(230, 230, 230);
+}
 
 .form__input {
-    width: 100%;
     margin: 1rem 0;
-    padding: 0.5rem;
-    border: 2px solid rgb(230, 230, 230);
-}
-
-.form__textarea {
-    width: 100%;
-    padding: 0.5rem;
-    border: 2px solid rgb(230, 230, 230);
-
-}
-
-.contact-info {
-
 }
 
 .contact-info__title {
     color: rgb(33, 33, 33);
-    font-family: "ArvoRegular", serif;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 57px;
+    font: 400 36px/57px "ArvoRegular", serif;
 }
 
 .contact-info__subtitle {
     color: rgb(194, 194, 194);
-    font-family: "Open Sans";
-    font-size: 10px;
-    font-weight: 800;
-    line-height: 26.84px;
+    font: 800 10px/26px "Open Sans";
     text-transform: uppercase;
-    /* Text style for "Email:" */
     letter-spacing: 1px;
 }
 
 .contact-info__links {
     color: rgb(52, 152, 219);
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 26px;
+    font: 700 16px/26px "Open Sans";
 }
 
 .contact-info__time {
     color: rgb(108, 108, 108);
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 700;
-    /* Text style for "пн-пт 12:0" */
-    line-height: 26px;
+    font: 700 14px/26px "Open Sans";
 }
 
 .btn-blue {
-
     border: 3px solid rgb(52, 152, 219);
     background-color: rgb(52, 152, 219);
     color: rgb(255, 255, 255);
     padding: 0.3rem;
-    font-family: "Open Sans";
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 18px;
+    font: 700 13px/18px "Open Sans";
     cursor: pointer;
 }
 
@@ -75,10 +93,8 @@
     padding-top: 25%;
     padding-bottom: 2rem;
     text-align: center;
-    background: url("../src/images/main-bg.png");
+    background: url("../src/images/main-bg.png") no-repeat center top;
     background-size: 130%;
-    background-repeat: no-repeat;
-    background-position: center top;
 }
 
 .about-section__title {
@@ -91,7 +107,6 @@
 
 .advantages__item {
     color: rgb(159, 163, 167);
-    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
@@ -103,4 +118,25 @@
     height: 8px;
     border-radius: 50%;
     background: #13ce6e;
+}
+
+/*google maps */
+.gmaps {
+    height: 280px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ #map {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+ }
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }

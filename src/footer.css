@@ -1,7 +1,5 @@
 .footer {
     background-color: rgb(44, 44, 44);
-    font-family: "Open Sans";
-    font-size: 13px;
 }
 
 .footer__section {
@@ -9,8 +7,7 @@
 }
 
 .footer__item {
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding: 1rem 0 1rem;
 }
 
 .footer__nav {
@@ -27,41 +24,34 @@
 }
 
 .footer__nav__link {
-    color: rgb(255, 255, 255);
-    /*font-size: 13px;*/
-    font-weight: 700;
-    line-height: 18px;
+    color: #fff;
+    font: 700 14px/18px "Open Sans";
     text-transform: uppercase;
     letter-spacing: 0.65px;
 }
 
 .footer__nav__link:hover {
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
-
 
 .footer__contacts__item {
     display: block;
     color: rgb(19, 206, 110);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
+    font: 400 14px/26px "Open Sans";
 }
 
 .footer__contacts__item:hover {
     color: rgb(19, 206, 110);
 }
+
 .footer__contacts__item span {
     color: rgb(153, 153, 153);
 }
 
 .footer__about {
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 18px;
+    color: #fff;
+    font: 700 13px/18px "Open Sans";
     text-transform: uppercase;
-    /* Text style for "О компании" */
     letter-spacing: 0.65px;
 }
 .footer__about__title {
@@ -74,8 +64,6 @@
     font-weight: 400;
 }
 
-
-
 .btn-transparent {
     cursor: pointer;
     color: rgb(52, 152, 219);
@@ -84,7 +72,3 @@
     border: 3px solid rgb(52, 152, 219);
     background-color: transparent;
 }
-
-
-
-
