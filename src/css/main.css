@@ -93,7 +93,7 @@ body footer {
     padding-top: 25%;
     padding-bottom: 2rem;
     text-align: center;
-    background: url("../src/images/main-bg.png") no-repeat center top;
+    background: url("../images/main-bg.png") no-repeat center top;
     background-size: 130%;
 }
 

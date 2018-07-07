@@ -1,0 +1,80 @@
+.navigation {
+  width: 90%;
+  margin: 0 auto;
+  .btn {
+    border-radius: 0px;
+  }
+}
+
+.nav-item {
+  border-bottom: 3px solid transparent;
+}
+
+.header {
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        font:700 13px/16px "Open Sans";
+        color: #000000;
+        border-bottom: 3px solid transparent;
+        &:hover {
+          border-bottom: 3px solid red;
+          color: #000000;
+        }
+      }
+    }
+  }
+
+}
+
+.call-me {
+  width: 170px;
+  height: 40px;
+  box-shadow: 0 0 20px rgba(11, 141, 255, 0.6);
+  border: 3px solid #3498db;
+  background-color: #3498db;
+}
+
+.navbar-brand img {
+  width: 171px;
+  height: 61px;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  .office {
+    flex-grow: 1;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font: 400 36px/52px "ArvoRegular";
+  }
+  .kiev {
+    position: relative;
+    font: 700 32px "Open Sans";
+    color: #3498db;
+    text-transform: uppercase;
+    &::after {
+      content: '';
+      position: absolute;
+      right: -20px;
+      top: 40%;
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background: #00d94d;
+    }
+  }
+}
+
+.map.col {
+  padding: 0;
+}
+
+
+
+
+
+
