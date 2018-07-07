@@ -1,0 +1,20 @@
+{
+  "name": "05-php-sity",
+  "version": "1.0.0",
+  "description": "php-city-contacts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "denys-oligov,kostya-orlov",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.php-academy.org/indik47/5_PHP_Contacts_Sity.git"
+  }
+}
