@@ -1,0 +1,93 @@
+@import "variables", "mixins", "extends";
+
+body header,
+body main,
+body footer {
+  font-family: "Open Sans";
+}
+
+.form {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid rgb(230, 230, 230);
+}
+
+.form__input {
+  margin: 1rem 0;
+}
+
+.contact-info {
+  &__title {
+    color: rgb(33, 33, 33);
+    font: 400 36px/57px "ArvoRegular", serif;
+  }
+  &__subtitle {
+    color: rgb(194, 194, 194);
+    font: $font-bold;
+    font-weight: 800;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  &__links {
+    color: rgb(52, 152, 219);
+    font: $font-bold;
+  }
+  &__time {
+    color: rgb(108, 108, 108);
+    font: $font-bold;
+    font-size: 14px;
+  }
+}
+
+.btn-blue {
+  border: 3px solid $blue-color;
+  background-color: $blue-color;
+  color: rgb(255, 255, 255);
+  padding: 0.3rem;
+  font: $font-bold;
+  font-size: 13px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 0 20px rgba(11, 141, 255, 0.6);
+  }
+}
+
+.about-section {
+  $self : &;
+  padding-top: 25%;
+  padding-bottom: 2rem;
+  text-align: center;
+  background: url("../images/main-bg.png") no-repeat center top;
+  background-size: 130%;
+  &__title {
+    color: rgb(41, 41, 41);
+    font: 400 36px/45px "ArvoRegular";
+  }
+  &__item {
+    color: rgb(159, 163, 167);
+    font: $font;
+  }
+}
+
+.bullet {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: $bullet-color;
+}
+
+/*google maps */
+.gmaps {
+  height: 280px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

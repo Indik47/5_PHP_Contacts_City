@@ -1,3 +1,5 @@
+@import "variables", "mixins", "extends";
+
 .navigation {
   width: 90%;
   margin: 0 auto;
@@ -24,7 +26,6 @@
       }
     }
   }
-
 }
 
 .call-me {
@@ -54,7 +55,7 @@
   .kiev {
     position: relative;
     font: 700 32px "Open Sans";
-    color: #3498db;
+    color: $blue-color;
     text-transform: uppercase;
     &::after {
       content: '';
@@ -64,7 +65,7 @@
       height: 10px;
       width: 10px;
       border-radius: 50%;
-      background: #00d94d;
+      background: $bullet-color;
     }
   }
 }
