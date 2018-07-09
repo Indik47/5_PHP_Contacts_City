@@ -19,30 +19,30 @@
       padding-right: 0.3rem;
     }
     &__link {
-      color: #fff;
+      color: $link-color;
       font: 700 14px/18px "Open Sans";
       text-transform: uppercase;
       letter-spacing: 0.65px;
       &:hover {
-        color: #fff;
+        color: $link-color;
       }
     }
   }
 
   &__contacts__item {
     display: block;
-    color: rgb(19, 206, 110);
+    color: $bullet-color;
     font: 400 14px/26px "Open Sans";
     & span {
       color: rgb(153, 153, 153);
     }
     &:hover {
-      color: rgb(19, 206, 110);
+      color: $bullet-color;
     }
   }
 
   &__about {
-    color: #fff;
+    color: $link-color;
     font: 700 13px/18px "Open Sans";
     text-transform: uppercase;
     letter-spacing: 0.65px;

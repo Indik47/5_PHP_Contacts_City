@@ -33,6 +33,11 @@
     @include blue-button();
   }
   }
+
+  & .title-header {
+    background-color: #eaf4fb;
+  }
+
   .title {
     display: flex;
     justify-content: center;

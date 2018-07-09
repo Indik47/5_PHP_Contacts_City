@@ -29,6 +29,8 @@
     @media screen and (min-width: 1200px) {
       .header .navigation .btn-blue {
         font-size: 14px; } }
+.header .title-header {
+  background-color: #eaf4fb; }
 .header .title {
   display: flex;
   justify-content: center;
