@@ -20,7 +20,7 @@
   .navbar-light {
     .navbar-nav {
       .nav-link {
-        font:700 10px/16px "Open Sans";
+        font:700 10px/16px $main-font-type;
         color: #000000;
         border-bottom: 3px solid transparent;
         @media screen and (min-width: 1200px) {
@@ -30,7 +30,7 @@
     }
   }
   .btn-blue {
-    @include blue-button();
+    @include button($blue-color);
   }
   }
 
@@ -51,7 +51,7 @@
     }
     &__kiev {
       position: relative;
-      font: 700 32px "Open Sans";
+      font: 700 32px $main-font-type;
       color: $blue-color;
       text-transform: uppercase;
       &::after {
